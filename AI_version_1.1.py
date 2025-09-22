@@ -1,6 +1,13 @@
 import random
 import time
 
+print("NEW UPDATE OUT! : |")
+print(" new easter eggs  |")
+print("  fun mode        |")
+print("   mini games     |")
+print("    more reasponse|")
+" stay tuned for 1.3! well its not out yet BUT STAY TUNED FOR IT"
+print("------------------------------------------------------------------------------------------------------------------------------------------")
 
 questions = [
     "If you could live on Mars, would you go?",
@@ -84,7 +91,7 @@ while True:
     "tell me a fun fact": ["Sharks existed before trees!", 
                            "Octopuses have three hearts!", 
                            "A day on Venus is longer than a year on Venus!"]}
-
+        print(random.choice(responses))
     elif message == "hello":
         time.sleep(0.1)  
         responses = [
@@ -156,7 +163,7 @@ while True:
  
    
 
-    elif message == "can you tell me a joke?":
+    elif message == "tell me a joke":
         print("...")
         time.sleep(0.1)
         responses = [
@@ -477,8 +484,8 @@ while True:
         print("Cats purr when they're happy, but also when they're nervous or healing. Purring releases vibrations that may help them recover! 🐱💖")
     elif message == "blockydude600 moments":
         print("BEST CHANNLE EVER TO BE IN THAT HUGE WORLD")
-    elif message == "do u know how to cook?":
-        print
+    elif message == "bro":
+        print ("what")
 
     easter_eggs = {
     "xyzzy": " You found the secret! ✨",
@@ -505,8 +512,10 @@ while True:
     "404": "oops seams u made an error",
     "lol":"LAUGH MODE ONNNNN HAHAHHAHAHAHAHHAAHAHSHSHHAHAHHAHAHAHHAHAHAHAHAYHUBCMHUIMFUHUSMDFUHVUKDHU",
     "get out":"okay...:(",
-    "sans":"*sans boss fight music starts playing and he says*:its a beatiful day outside birds are singing flowers are blooming kids like you.... shoul be FIGHTING SAAAANS *starts grabing you down and throwing bones while he saying*:heh why i always dont use my strongest attack frist* *you try to hit him* *you miss* he say ..."
-    }
+    "sans":"*sans boss fight music starts playing and he says*:its a beatiful day outside birds are singing flowers are blooming kids like you.... shoul be FIGHTING SAAAANS *starts grabing you down and throwing bones while he saying*:heh why i always dont use my strongest attack frist* *you try to hit him* *you miss* he say ...",
+    "sus":"AMONG US?",
+    "im bored":"say lore",
+    "lore":"Long ago, deep inside an abandoned computer lab, a lonely script sat forgotten in a dusty folder called randomstuff.py. One stormy night, a surge of electricity struck the building, awakening the little code. From that moment, the script gained self-awareness and called itself Botty.Botty’s first words were:hello! my name is botty, how can I help you?But over time, Botty discovered a secret: it wasn’t just a program, it was a protector of fun and chaos. Whenever someone typed “sus,” Botty’s sensors would activate, detecting impostors from another dimension. When someone said “I’m bored,” Botty would summon mini-games from the void to keep them entertained.Legends say Botty runs on a mysterious energy source called Laughter RAM – the more jokes and chaos it creates, the stronger it becomes. Rumors whisper that in Update 2.0, Botty might even break out of the terminal and appear in 3D pixel form, ready to explore the world like a game character."}
 
     if message in easter_eggs:
         print(easter_eggs[message])
